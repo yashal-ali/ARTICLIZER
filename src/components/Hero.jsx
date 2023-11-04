@@ -1,4 +1,4 @@
-import React from "react";
+
 import logo_name from "../assets/logo_name.png";
 
 const Hero = () => {
@@ -10,15 +10,12 @@ const Hero = () => {
           alt="articlizer_logo"
           className="w-40 object-contain"
         />
-        <button
-          type="button"
-          onClick={() => {
-            console.log("clicked");
-          }}
+        <a
+          href="https://github.com/yashal-ali/ARTICLIZER"
           className=" bg-gradient-to-r from-cyan-500 to-blue-500 text-white p-0 transition-all duration-300 ease-in-out rounded-md px-4 py-2 ml-2 hover:text-lg hover:from-cyan-600 hover:to-blue-600 hover:shadow-xl"
         >
           GitHub
-        </button>
+        </a>
       </nav>
       <h1 className="head-text ">
         <span className="text-6xl font-bold blue_gradient">ARTICLIZER</span>
@@ -31,8 +28,8 @@ const Hero = () => {
       </h1>
       <h2 className="mt-4 desc">
         You can use Articlizer, an open-source article summarizer, to make
-        lengthy texts easier to read. It's designed to simplify reading and make
-        information more accessible."
+        lengthy texts easier to read. Its designed to simplify reading and make
+        information more accessible.
       </h2>
     </header>
   );
