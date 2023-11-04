@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useState, useEffect } from "react";
 import { copy, linkIcon, loader, tick } from "../assets";
 import { useLazyGetSummaryQuery } from "../services/Article";
@@ -92,7 +92,7 @@ const Demo = () => {
           <img src={loader} alt="loader" className="w-20 h-20 object-contain" />
         ) : error ? (
           <p className="font-inter font-bold text-black text-center">
-            Well, that wasn't supposed to happen...
+            Well, that was not supposed to happen...
             <br />
             <span className="font-satoshi font-normal text-gray-700">
               {error?.data?.error}
